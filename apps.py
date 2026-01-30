@@ -7,7 +7,7 @@ import geopandas as gpd
 
 
 def resource_path(*parts):
-    return os.path.join(Path(__file__).resolve().parent.parent, *parts)
+    return os.path.join(Path(__file__).resolve().parent, 'data', *parts)
 
 
 @st.cache_data
